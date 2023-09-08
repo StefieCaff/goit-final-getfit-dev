@@ -1,5 +1,5 @@
-//External
-//import { Link } from 'react-router-dom'
+//external
+
 // MUI
 import { IconButton } from '@mui/material';
 import AppBar from '@mui/material/AppBar';
@@ -8,8 +8,9 @@ import Toolbar from '@mui/material/Toolbar';
 import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import Typography from '@mui/material/Typography';
 
-//Internal
+//internal
 import useViewPort from 'hooks/useViewport';
+// import Navigation from 'components/Navigation/Navigation';
 
 const Header = () => {
     const { width } = useViewPort();
@@ -31,11 +32,11 @@ const Header = () => {
                         <IconButton>
                             <SelfImprovementIcon />
                         </IconButton>       
-                    )}
-                </Toolbar>  
+                        )}
+                    {/* <Navigation/> */}
+                </Toolbar>
             </AppBar>
         </Box>
-
     )
 };
 
