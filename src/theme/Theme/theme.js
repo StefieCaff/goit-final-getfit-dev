@@ -51,7 +51,7 @@ const lightTheme = createTheme({
       light: '#9b9faa',
       dark: '#FC842D',
       hover: '#fffff',
-      checked: '#FC842D'
+      checked: '#FC842D',
     },
     background: {
       default: '#e0e0e0',
@@ -60,7 +60,7 @@ const lightTheme = createTheme({
       menu: '#264061',
     },
     text: {
-      secondary: '#9ca0aa',
+      primary: '#9ca0aa',
       hint: '#264061',
     },
   },
